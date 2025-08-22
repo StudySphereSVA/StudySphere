@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        header {
+            background-color: white;
+            color: royalblue;
+            height: 60px;
+            width: 100%;
+        }
+        .dashboard{
+            background-color: whitesmoke;
+            color: royalblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 20%;
+            height: 60px;
+            border: None;
+            box-shadow: 10px 10px 12px rgba(0,0,0,0.5);
+            transition: background-color 0.5s;
+            border-radius: 12px;
+            margin-right: 6%;
+            margin-left: 6%;
+        }
+        .dashboard:hover{
+            background-color: lightgrey;
+        }
+        .dashboard:active{
+            opacity: 0.6;
+        }
+        section{
+            background-color:aliceblue;
+            color: royalblue;
+            border-color: lightgrey;
+            border-radius: 12px;
+            width: 90.09%;
+            margin-top: 40px;
+            box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+            transition: box-shadow 1s;
+            transition: transform 1s;
+            margin: auto;
+        }
+        section:hover{
+            transform: scale(1.1);
+            box-shadow: 20px 0px 12px rgba(0,0,0,0.5);
+        }
+        .Sign-up-button{
+            background-color: royalblue;
+            color:aliceblue;
+            border-color: lightgrey;
+            border-radius: 4px;
+            margin-left: 38%;
+            margin-right: 1%;
+            width: 10%;
+            margin-top: 12px;
+            height: 25px;
+            transition: box-shadow 1s;
+            transition: transform 1s;
+            margin-bottom: 10px;
+        }
+        .Sign-up-button:hover{
+            transform: scale(1.1); 
+            box-shadow: 4px 5px 0px rgba(254, 81, 1, 1); 
+        }
+        .Sign-up-button:active{
+            opacity: 0.5;
+        }
+        .Demo-button{
+            background-color: royalblue;
+            color:aliceblue;
+            border: none;
+            border-radius: 4px;
+            margin-right: 38%;
+            margin-left: 1%;
+            width: 10%;
+            margin-top: 12px;
+            height: 25px;
+            transition: box-shadow 1s;
+            transition: transform 1s;
+        }
+        .Demo-button:hover{
+            transform: scale(1.1); 
+            box-shadow: 4px 5px 0px rgba(254, 81, 1, 1);
+        }
+        .Demo-button:active{
+            opacity: 0.5;
+        }
+        h3{
+            text-align: center;
+            font-size: 25px;
+        }
+        .center{
+            text-align: center;
+        }
+        .login{
+            background-color: royalblue;
+            color:aliceblue;
+            border: none;
+            border-radius: 4px;
+            margin-right: 0%;
+            margin-left: 75%;
+            width: 10%;
+            margin-top: 2px;
+            height: 25px;
+            transition: box-shadow 1s;
+            transition: transform 1s;
+        }
+        .login:hover{
+            transform: scale(1.1); 
+            box-shadow: 4px 5px 0px rgba(254, 81, 1, 1);
+        }
+        .login:active{
+            opacity: 0.5;
+        }
+        p{
+            font-size: 18px;
+        }
+        .paymentplans{
+            background-color: royalblue;
+            color:whitesmoke;
+            border-color: royalblue ;
+            border-radius: 12px;
+            width: 28%;
+            margin-top: 0px;
+            overflow: hidden;
+            height: 500px;
+            transition: box-shadow 1s;
+            transition: background-color 1s;
+            transition: color 1s;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            margin-bottom: 10px;
+        }
+        .paymentplans:hover{
+            background-color: whitesmoke;
+            border-color: royalblue;
+            color:royalblue; 
+            box-shadow: 4px 5px 0px rgba(254, 81, 1, 1);
+        }
+        .paymentplans:active{
+            opacity: 0.5;
+        }
+        .paymentplans span img {
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s;
+        }
+        .paymentplans:hover span img {
+            transform: scaleX(1);
+        }
+    </style>
+    <body>
+        <header>
+            <h1>
+                StudySphere<button class="login">Login</button>
+            </h1>
+        </header>
+        <a href="C:\Users\vakar\Desktop\html-css-course\StudySphere\dashboard.html"> 
+            <button class="dashboard">
+                <h2> 
+                     Dashboard →
+                </h2>
+            </button>
+        </a>
+        <a href="C:\Users\vakar\Desktop\html-css-course\StudySphere\calendar.html">    
+            <button class="dashboard">
+                <h2>    
+                    Calendar →     
+                </h2>
+            </button>
+        </a>
+        <a href="C:\Users\vakar\Desktop\html-css-course\StudySphere\assignments.html">    
+            <button class="dashboard">
+                <h2>
+                      Add Assignments → 
+                </h2>
+            </button>
+        </a>
+        <section>
+            <h3>
+                Don't Have an Account
+
+            </h3>
+            <p class="center">
+                You won't be able to save your progress. Create a free account.
+            </p>
+            <button class="Sign-up-button">
+                Sign Up
+            </button>
+            <button class="Demo-button">
+                Demo Mode
+            </button>
+        </section>
+        <section>
+            <h3>
+                Explore our Plans
+            </h3>
+            <p> 
+                Take a closer look at everything we have to offer by exploring our full range of paid plans. Each plan has been thoughtfully designed to unlock valuable features, tools, and benefits that can help you get the very best experience from our service. Whether you’re looking for something simple and flexible or a plan with more advanced options, we’ve made it easy to find the one that suits your needs.<br>  <br>By reviewing the different choices, you’ll be able to see exactly what each plan includes and how it can support you. We encourage you to take your time, compare the options, and select the plan that feels like the right fit for you. No matter which one you choose, you’ll enjoy access to premium features that make your experience smoother, more efficient, and more enjoyable.
+            </p>
+            <button class="paymentplans">
+                <h2>Student</h2><span><img src="C:\Users\vakar\Desktop\html-css-course\StudySphere\Screenshot 2025-08-21 122030.png"></span>
+            </button>
+            <button class="paymentplans">
+                <h2>Study Group</h2><span><img src=""></span>
+            </button>
+            <button class="paymentplans">
+                <h2>Organisation</h2><span><img src=""></span>
+            </button>
+            <p class="center">
+                For especially large organisations (+500), price is negotiable. <a href="C:\Users\vakar\Desktop\html-css-course\StudySphere\contactus.html">Click Here</a> to Contact us.
+            </p>
+        </section>
+    </body>
+</html>
